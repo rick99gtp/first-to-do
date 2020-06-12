@@ -20,8 +20,6 @@ function showList() {
     for(let i=0, max=listArr.length; i < max; i++) {
         $('.container ul').append("<li value='" + i + "'><div class='li-item'><p class='li-p'>" + listArr[i] + "</p><p class='li-x'>X</p></div></li>");
     }
-
-    console.log(listArr);
 }
 
 $('.container ul').on('click', '.li-x', function(e) {

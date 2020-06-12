@@ -1,0 +1,23 @@
+body {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30%;
+    position: relative;
+
+    h3 {
+        position: absolute;
+        left: 10px;
+        top: 2px ;
+        display: inline;
+        margin: 0;
+        font-size: 1em;
+        font-weight: normal;
+        color: #aaa;
+        pointer-events: none;
+    }
+}

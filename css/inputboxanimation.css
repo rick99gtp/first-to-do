@@ -1,0 +1,30 @@
+body {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 30%;
+  position: relative;
+}
+
+.container h3 {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  display: inline;
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+  color: #aaa;
+  pointer-events: none;
+}
+/*# sourceMappingURL=inputboxanimation.css.map */
