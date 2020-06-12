@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+
+.container .input-row .input-p {
+  display: inline;
+}
+
+.container ul {
+  list-style: none;
+  width: 100%;
+}
+
+.container ul li .li-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container ul li .li-item .li-p {
+  display: inline;
+  pointer-events: none;
+}
+
+.container ul li .li-item .li-x {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=todo.css.map */

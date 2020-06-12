@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+
+    .input-row {
+        
+        .input-p {
+            display: inline;
+        }
+    }
+
+    ul {
+        list-style: none;
+        width: 100%;
+
+        li {
+            .li-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .li-p {
+                    display: inline;
+                    pointer-events: none;
+                }
+
+                .li-x {
+                    margin-left: 10px;
+                    padding: 5px;
+                    background-color: red;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
